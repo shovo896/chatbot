@@ -28,7 +28,7 @@ def get_response(user_input, intents):
 
 def main():
     intents = load_intents()
-    print("🤖 SmartChatXML: Hello! Type 'quit' to exit.")
+    print(" SmartChatXML: Hello! Type 'quit' to exit.")
     while True:
         user_input = input("You: ")
         if user_input.lower() == "quit":
