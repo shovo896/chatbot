@@ -1,0 +1,57 @@
+<intents>
+    <intent>
+        <tag>greeting</tag>
+        <patterns>
+            <pattern>Hi</pattern>
+            <pattern>Hello</pattern>
+            <pattern>Hey</pattern>
+        </patterns>
+        <responses>
+            <response>Hello!</response>
+            <response>Hi there!</response>
+            <response>Hi, how can I help?</response>
+        </responses>
+    </intent>
+
+    <intent>
+        <tag>goodbye</tag>
+        <patterns>
+            <pattern>Bye</pattern>
+            <pattern>Goodbye</pattern>
+            <pattern>See you later</pattern>
+        </patterns>
+        <responses>
+            <response>Goodbye!</response>
+            <response>Take care!</response>
+            <response>See you soon!</response>
+        </responses>
+    </intent>
+
+    <intent>
+        <tag>thanks</tag>
+        <patterns>
+            <pattern>Thanks</pattern>
+            <pattern>Thank you</pattern>
+            <pattern>That's helpful</pattern>
+        </patterns>
+        <responses>
+            <response>You're welcome!</response>
+            <response>Glad to help!</response>
+            <response>Anytime!</response>
+        </responses>
+    </intent>
+
+    <intent>
+        <tag>help</tag>
+        <patterns>
+            <pattern>I need support</pattern>
+            <pattern>Assist me</pattern>
+            <pattern>Can you help me?</pattern>
+        </patterns>
+        <responses>
+            <response>Sure, what do you need?</response>
+            <response>I'm here to help!</response>
+            <response>What can I assist you with?</response>
+        </responses>
+    </intent>
+</intents>
